@@ -1,0 +1,24 @@
+{
+  "name": "liquid-node-boilerplate",
+  "version": "1.0.0",
+  "description": "Liquid with Node.js boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server -c lite.config.json",
+    "gulp": "gulp",
+    "gulp:w": "gulp watch",
+    "start": "gulp && concurrently \"npm run gulp:w\" \"npm run lite\" "
+  },
+  "author": "Franky Lau (killalau1988@hotmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.9",
+    "istextorbinary": "^2.1.0",
+    "lite-server": "^2.2.2",
+    "shopify-liquid": "^1.1.13",
+    "through2": "^2.0.1"
+  }
+}
